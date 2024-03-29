@@ -1,6 +1,6 @@
 [project]
-name = "illustrator.nvim"
+name = "svg.nvim"
 version = "0.0.1"
-description = "quickly create and edit vector documents in neovim."
-author = "Rafael Papallas"
-email = "rpapallas@gmail.com"
+description = "Create and edit svg files in Neovim with inkscape."
+author = "Felipe J. O. Ribeiro"
+email = "felipejoribeiro1@gmail.com"

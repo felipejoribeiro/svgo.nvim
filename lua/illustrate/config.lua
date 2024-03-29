@@ -1,7 +1,7 @@
 local M = {}
 
-M.namespace = vim.api.nvim_create_namespace('illustrate')
-local templates_dir = vim.fn.stdpath('data') .. '/lazy/illustrate.nvim/templates'
+M.namespace = vim.api.nvim_create_namespace('svgo')
+local templates_dir = vim.fn.stdpath('data') .. '/lazy/svgo.nvim/templates'
 
 local defaults = {
   illustration_dir = 'figures',
