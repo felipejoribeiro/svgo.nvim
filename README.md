@@ -1,17 +1,28 @@
-![readme-logo.svg](./data/logo.svg)
-
-<p style="width:100%; text-align: center">
+<p align="center">
+  <img width="75%" src="data/logo.svg" alt="Banner">
+</p>
+<p align="center">
   Editing svg files in Neovim with Inkscape should not be this easy.
 </p>
-
-<p style="display:flex;flex-direction:row; align-self: center;">
-
-  <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge" alt="Neovim" />
-  <img src="https://img.shields.io/badge/Made%20With%20Lua-2C2D72?logo=lua&logoColor=fff&style=for-the-badge" alt="made with lua" >
-
+<p align="center">
+  <a href="https://github.com/koekeishiya/yabai/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/koekeishiya/yabai.svg?color=green" alt="License Badge">
+  </a>
+  <a href="https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc">
+    <img src="https://img.shields.io/badge/view-documentation-green.svg" alt="Documentation Badge">
+  </a>
+  <a href="https://github.com/koekeishiya/yabai/wiki">
+    <img src="https://img.shields.io/badge/view-wiki-green.svg" alt="Wiki Badge">
+  </a>
+  <a href="https://github.com/koekeishiya/yabai/blob/master/CHANGELOG.md">
+    <img src="https://img.shields.io/badge/view-changelog-green.svg" alt="Changelog Badge">
+  </a>
+  <a href="https://github.com/koekeishiya/yabai/releases">
+    <img src="https://img.shields.io/github/commits-since/koekeishiya/yabai/latest.svg?color=green" alt="Version Badge">
+  </a>
 </p>
 
-Illustrate.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
+svgo.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
 
 ## Features
 
