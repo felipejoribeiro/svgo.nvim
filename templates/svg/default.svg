@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 882 250"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8397586"
+     inkscape:cx="347.12357"
+     inkscape:cy="6.5495013"
+     inkscape:window-width="1456"
+     inkscape:window-height="1014"
+     inkscape:window-x="227"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg11" />
+  <style
+     id="style1">
+    .green {
+      fill:#5abe5c;
+    }
+    .orange {
+      fill:#fec547;
+    }
+    .text {
+      fill:#00364b;
+    }
+    .red {
+      fill:#f36864;
+    }
+    @media (prefers-color-scheme: dark) {
+      .text {
+        fill: #ebeeef;
+      }
+    }
+  </style>
+  <title
+     id="title1">yabai logo banner</title>
+  <text
+     xml:space="preserve"
+     style="font-size:160.245px;line-height:1.25;font-family:Serif;-inkscape-font-specification:'Serif, Normal';stroke-width:12.0184"
+     x="238.42467"
+     y="178.04985"
+     id="text1"
+     class="text"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="238.42467"
+       y="178.04985"
+       style="stroke-width:12.0184">SVGo</tspan></text>
 </svg>

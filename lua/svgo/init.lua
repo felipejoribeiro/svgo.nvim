@@ -1,6 +1,6 @@
 local M = {}
-local utils = require('illustrate.utils')
-local Config = require('illustrate.config')
+local utils = require('svgo.utils')
+local Config = require('svgo.config')
 vim.notify = require('notify')
 
 function M.setup(options)
@@ -17,7 +17,7 @@ function M.open_svg_under_cursor()
     local line = vim.fn.getline('.')
     file_path = line:match('!%[[^%]]*%]%((.-)%s*%)')
   else
-    vim.notify('[illustrate.nvim] Not a tex or markdown document.', vim.log.levels.INFO)
+    vim.notify('[svgo.nvim] Not a tex or markdown document.', vim.log.levels.INFO)
     return
   end
 
@@ -28,7 +28,7 @@ function M.open_svg_under_cursor()
   if file_path then
     utils.open_file_in_vector_program(file_path)
   else
-    vim.notify('[illustrate.nvim] No figure environment found under cursor', vim.log.levels.INFO)
+    vim.notify('[svgo.nvim] No figure environment found under cursor', vim.log.levels.INFO)
   end
 end
 
@@ -39,7 +39,7 @@ function M.create_and_open_svg()
   local output_file_absolute_path, output_is_relative = utils.get_output_path(filename)
   local template_file_absolute_path = utils.get_template_path()
   if not template_file_absolute_path then
-    vim.notify('[illustrate.nvim] No default SVG template found', vim.log.levels.ERROR)
+    vim.notify('[svgo.nvim] No default SVG template found', vim.log.levels.ERROR)
     return
   end
 

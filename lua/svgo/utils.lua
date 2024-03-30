@@ -1,5 +1,5 @@
 local M = {}
-local Config = require('illustrate.config')
+local Config = require('svgo.config')
 vim.notify = require('notify')
 
 local function execute(command, background)
@@ -14,7 +14,7 @@ local function execute(command, background)
     handle:close()
 
     if result ~= '' then
-      vim.notify('[illustrate.nvim] Error: ' .. result, vim.log.levels.ERROR)
+      vim.notify('[svgo.nvim] Error: ' .. result, vim.log.levels.ERROR)
     end
   end
 end
@@ -90,7 +90,7 @@ function M.create_document_name(input_string)
 
   -- input string has any extension?
   if input_string:match('^.+%..+$') then
-    vim.notify('[illustrate.nvim] Filename should not contain an extension', vim.log.levels.ERROR)
+    vim.notify('[svgo.nvim] Filename should not contain an extension', vim.log.levels.ERROR)
     return
   end
 
