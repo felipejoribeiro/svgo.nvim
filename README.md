@@ -77,4 +77,4 @@ return {
 
 ## Final remarks
 
-In memory of **Gilles Castel ✝︎2022**, author of the "[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)" blog post, whom inspired me to persue note taking excellence. Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim).
+In memory of Gilles Castel (✝︎2022), author of the '[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)' blog post, who inspired me to pursue note-taking excellence. Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim).
