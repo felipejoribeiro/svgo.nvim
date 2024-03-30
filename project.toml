@@ -1,6 +1,6 @@
 [project]
 name = "svgo.nvim"
-version = "0.0.1"
+version = "0.0.2"
 description = "Create and edit svg files in Neovim with inkscape."
 author = "Felipe J. O. Ribeiro"
 email = "felipejoribeiro1@gmail.com"
