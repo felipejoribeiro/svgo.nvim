@@ -20,11 +20,12 @@ SVGo.nvim is a lua plugin for neovim that lets you quickly create, search and op
 
 ## Features
 
-With key bindings you define, `illustrate` can:
+With key bindings you define, `SVGo.nvim` can:
 
 - Create a new `.svg` file with a name of your choice, insert a code snippet of the figure automatically, and open the figure in Inkscape. The example key binding provided below is
   `<leader>i`.
 - Open the figure under the cursor, in Inkscape. The example key binding below is `<leader>io`.
+- Zettelkasten naming convention for figures, including metadata appendage.
 
 The plugin currently supports macOS and Linux only.
 
@@ -56,7 +57,7 @@ return {
     "rcarriga/nvim-notify",
   },
   keys = function()
-    local illustrate = require('svgo')
+    local svgo = require('svgo')
     return {
       {
         "<leader>i",
@@ -76,4 +77,4 @@ return {
 
 ## Final remarks
 
-In memory of **Gilles Castel ✝︎2022**, author of [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) blog post, whom inspired me to persue note taking excellence. Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim).
+In memory of **Gilles Castel ✝︎2022**, author of the "[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)" blog post, whom inspired me to persue note taking excellence. Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim).

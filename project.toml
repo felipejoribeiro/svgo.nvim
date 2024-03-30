@@ -1,5 +1,5 @@
 [project]
-name = "svg.nvim"
+name = "svgo.nvim"
 version = "0.0.1"
 description = "Create and edit svg files in Neovim with inkscape."
 author = "Felipe J. O. Ribeiro"
