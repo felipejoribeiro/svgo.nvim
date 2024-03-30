@@ -8,12 +8,15 @@
   <a href="https://github.com/koekeishiya/yabai/blob/master/LICENSE.txt">
     <img src="https://img.shields.io/github/license/felipejoribeiro/svgo.nvim?color=blue" alt="License Badge">
   </a>
-  <a href="https://github.com/koekeishiya/yabai/releases">
+  <a href="https://github.com/felipejoribeiro/svgo.nvim/releases">
     <img src="https://img.shields.io/github/commits-since/felipejoribeiro/svgo.nvim/latest.svg?color=blue" alt="Version Badge">
+  </a>
+  <a href="https://github.com/felipejoribeiro/svgo.nvim/releases">
+    <img src="https://img.shields.io/github/languages/top/felipejoribeiro/svgo.nvim?color=blue" alt="Version Badge">
   </a>
 </p>
 
-svgo.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
+SVGo.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
 
 ## Features
 
