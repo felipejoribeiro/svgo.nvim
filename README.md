@@ -2,7 +2,7 @@
   <img width="75%" src="data/logo.svg" alt="Banner">
 </p>
 <p align="center">
-  Editing svg files in Neovim with Inkscape should not be this easy.
+  Editing svg files in Neovim with Inkscape: easy mode.
 </p>
 <p align="center">
   <a href="https://github.com/koekeishiya/yabai/blob/master/LICENSE.txt">
@@ -28,13 +28,28 @@ With key bindings you define, `illustrate` can:
 
 The plugin currently supports macOS and Linux only.
 
+## Roadmap
+
+The following features are planned for the future:
+
+- [ ] Complete support for templates:
+  - [x] System-wide default template;
+  - [ ] Project-specific default template;
+  - [ ] System-wide templates;
+  - [ ] Project-specific templates;
+  - [ ] Creation of `add-template` function;
+  - [ ] Creation of `remove-template` function;
+- [ ] Support for svg libraries;
+  - [ ] Creation of `add-to-library` function;
+  - [ ] Creation of `open-from-library` function to use library element as template;
+  - [ ] Creation of `remove-from-library` function;
+- [ ] Deal with hot-reload from Inkscape;
+- [ ] Support for Windows;
+
 ## Installation
 
-The plugin is currently designed for [lazy.nvim](https://github.com/folke/lazy.nvim).
-
-### lazy.nvim
-
 ```lua
+--- lazy.nvim
 return {
   'felipejoribeiro/svgo.nvim',
   dependencies = {
@@ -45,12 +60,12 @@ return {
     return {
       {
         "<leader>i",
-        function() illustrate.create_and_open_svg() end,
+        function() svgo.create_and_open_svg() end,
         desc = "Create and open a new SVG file with provided name."
       },
       {
         "<leader>io",
-        function() illustrate.open_under_cursor() end,
+        function() svgo.open_under_cursor() end,
         desc = "Open file under cursor (or file within environment under cursor)."
       },
     }
@@ -59,14 +74,6 @@ return {
 }
 ```
 
-## Contributions, feedback and requests
+## Final remarks
 
-Happy to accept contributions/pull requests to extend and improve this simple
-plugin. I am also open to feedback and requests for new features. Please open a
-GitHub issue for those.
-
-## Other notes
-
-- This plugin is inspired from [this](https://github.com/gillescastel/inkscape-figures) Python project from [Gilles Castel](https://github.com/gillescastel) and his excellent blog post [here](https://castel.dev/post/lecture-notes-2/), made to be a native lua plugin for neovim.
-- The structure of this repo is based on [nvim-plugin-template](https://github.com/mistricky/nvim-plugin-template)
-- Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim)
+In memory of **Gilles Castel ✝︎2022**, author of [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) blog post, whom inspired me to persue note taking excellence. Forked from [illustrate](https://github.com/rpapallas/illustrate.nvim).
