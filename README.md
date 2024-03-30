@@ -1,14 +1,17 @@
-<h1 align="center">🎨 svgo</h1>
+![readme-logo.svg](./data/logo.svg)
 
-<p align="center">
+<p style="width:100%; text-align: center">
+  Editing svg files in Neovim with Inkscape should not be this easy.
+</p>
 
-<img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge" alt="Neovim" />
+<p style="display:flex;flex-direction:row; align-self: center;">
 
-<img src="https://img.shields.io/badge/Made%20With%20Lua-2C2D72?logo=lua&logoColor=fff&style=for-the-badge" alt="made with lua" >
-
-Illustrate.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
+  <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge" alt="Neovim" />
+  <img src="https://img.shields.io/badge/Made%20With%20Lua-2C2D72?logo=lua&logoColor=fff&style=for-the-badge" alt="made with lua" >
 
 </p>
+
+Illustrate.nvim is a lua plugin for neovim that lets you quickly create, search and open **SVG** files in Inkscape (Linux, macOS) from within neovim. It works with Markdown files.
 
 ## Features
 
